@@ -1,0 +1,11 @@
+
+###
+# Default Typoscript constants for VCE Event Management
+##
+
+plugin.sk_calendar_event_management {
+  # cat=plugin.sk_calendar_event_management/file; type=file[html,htm,tmpl,txt]; label= Template File: HTML-template file for display of events. See EXT:sk_calendar_event_management/pi1/eventmanagement.tmpl for an example
+  file.templateFile = EXT:sk_calendar_event_management/pi1/eventmanagement.tmpl
+  # cat=plugin.tt_news//10; type=bolean; label= Allow Caching: Allow caching of displayed news? If you want your news being indexed by the indexed-search this has to be enabled.
+  allowCaching = 1
+}
